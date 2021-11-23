@@ -1,0 +1,5 @@
+First install Mongo DB installer from website
+To install mongo driver in ruby simply write this command
+
+gem install mongo
+gem install mongo "-> 2"
