@@ -5,14 +5,10 @@ def register_yourself
     name = gets
     puts "\nEmail :"
     email = gets
-    puts "\nCompany :"
-    comp = gets
-    puts "\nRelation :"
-    rel = gets
-    puts "\nStrength :"
-    strn = gets
+    puts "Status :"
+    status = gets
     rd = Reg_db.new
-    rd.db_register(name.chomp, email.chomp, rel.chomp, strn.chomp)
+    rd.db_register(name.chomp, email.chomp, status.chomp)
   end
   
 
