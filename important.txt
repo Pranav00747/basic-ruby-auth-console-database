@@ -7,20 +7,17 @@ Creating Mongo DB database and collections
 
 Open Mongo DB.exe application
 
-use <database-name> for creating database which switches to db
-db.createCollection("<collection-name>") for creating collection
+use <database-name> for creating database which switches to db 'basicrecords'
+db.createCollection("registry") for creating collection
 
 Display the records
 
-db.<collection-name>.findAll()
-db.<collection-name>.find()
+db.registry.findAll()
+db.registry.find()
 
 Results 
 
-{ "_id" : ObjectId("619d0b70eca298f73f7d9707"), "name" : "Ashish Patil", "email" : "ashish..gmail.com", "company" : "Not Applied", "relation" : "Enemy", "strength" : "Lab Assistant" }
-{ "_id" : ObjectId("619d0ba1eca298f73f7d9708"), "name" : "Mukul Nagrale", "email" : "mucool..gmail.com", "company" : "Nagarro", "relation" : "Enemy", "strength" : "Nothing" }
-{ "_id" : ObjectId("619d0c46eca298f73f7d9709"), "name" : "Rajas Umalkar", "email" : "rajasumal..gmail.com", "company" : "Not Applied", "relation" : "Brother", "strength" : "Guard/Dog Trainer" }
-{ "_id" : ObjectId("619d0c9deca298f73f7d970a"), "name" : "Eesha Kurode", "email" : "erkurode..gmail.com", "company" : "Persistent Systems", "relation" : "Cousin", "strength" : "Content writing only" }
-{ "_id" : ObjectId("619d0ceeeca298f73f7d970b"), "name" : "Sarvesh Mehtani", "email" : "sarveshm..gmail.com", "company" : "Optiver Netherlands", "relation" : "Friend", "strength" : "Machine Learning" }
-{ "_id" : ObjectId("619d0d6ceca298f73f7d970c"), "name" : "Omkar Kulkarni", "email" : "omkark..gmail.com", "company" : "Symbosis Law", "relation" : "Brother", "strength" : "Piun Lower Level Management" }
-{ "_id" : ObjectId("619d0db0eca298f73f7d970d"), "name" : "Devashish Kulkarni", "email" : "d..gmail.com", "company" : "Local", "relation" : "Brother", "strength" : "Labour Work Civil" }
+{ "_id" : ObjectId("619d0b70eca298f73f7d9707"), "name" : "Nitin Kalamkar", "email" : "nitin_kalamkar@gmail.com", "status":"MBBS MD New York"}
+{ "_id" : ObjectId("619d0ba1eca298f73f7d9708"), "name" : "Parag Agrawal", "email" : "paraga@twitter.com", "status":"Chief Executive Officer Twitter"}
+{ "_id" : ObjectId("619d0c46eca298f73f7d9709"), "name" : "Sundar Pichai, "email" : "sundarpichai@own", "status":"Chief Executive Officer Google"}
+{ "_id" : ObjectId("619d0c9deca298f73f7d970a"), "name" : "Pranav Kumar Kulkarni", "email": "pckkula00747.campus@gmail.com", "status":"***"}
